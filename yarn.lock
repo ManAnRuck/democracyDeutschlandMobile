@@ -3556,6 +3556,12 @@ react-native-navigation@^1.1.348:
   dependencies:
     lodash "4.x.x"
 
+react-native-navigation@wix/react-native-navigation#2545/head:
+  version "1.1.314"
+  resolved "https://codeload.github.com/wix/react-native-navigation/tar.gz/d927e3c6bd92c820e45400e4e1e186d0d2411d3b"
+  dependencies:
+    lodash "4.x.x"
+
 react-native@0.52.0:
   version "0.52.0"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.52.0.tgz#9784663a2aa40b30c87d4c9c06ef26cf8d419d91"
