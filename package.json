@@ -4,29 +4,18 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest",
-    "haul": "haul",
-    "lint": "tslint --project tsconfig.json --format codeFrame",
-    "tslint-check": "tslint-config-prettier-check ./tslint.json"
+    "test": "jest"
   },
   "dependencies": {
-    "haul": "^1.0.0-beta.12",
     "react": "16.2.0",
     "react-native": "0.52.0",
     "react-native-navigation": "wix/react-native-navigation#2545/head"
   },
   "devDependencies": {
-    "@types/webpack-env": "^1.13.3",
     "babel-jest": "22.1.0",
     "babel-preset-react-native": "4.0.0",
     "jest": "22.1.4",
-    "prettier": "^1.10.2",
-    "react-test-renderer": "16.2.0",
-    "ts-loader": "^3.2.0",
-    "tslint": "^5.9.1",
-    "tslint-config-prettier": "^1.6.0",
-    "tslint-react": "^3.4.0",
-    "typescript": "^2.6.2"
+    "react-test-renderer": "16.2.0"
   },
   "jest": {
     "preset": "react-native"

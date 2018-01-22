@@ -1,6 +1,6 @@
 import { Navigation } from "react-native-navigation";
 
-import { registerScreens } from "./screens";
+import { registerScreens } from "./src/screens";
 
 registerScreens();
 
@@ -9,4 +9,6 @@ Navigation.startSingleScreenApp({
     screen: "example.FirstTabScreen", // unique ID registered with Navigation.registerScreen
     title: "App", // title of the screen as appears in the nav bar (optional)
   },
+
+  animationType: "fade",
 });
