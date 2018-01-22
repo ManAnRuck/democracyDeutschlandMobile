@@ -10,14 +10,15 @@
     "tslint-check": "tslint-config-prettier-check ./tslint.json"
   },
   "dependencies": {
+    "haul": "^1.0.0-beta.12",
     "react": "16.2.0",
     "react-native": "0.52.0",
     "react-native-navigation": "wix/react-native-navigation#2545/head"
   },
   "devDependencies": {
+    "@types/webpack-env": "^1.13.3",
     "babel-jest": "22.1.0",
     "babel-preset-react-native": "4.0.0",
-    "haul": "^1.0.0-beta.12",
     "jest": "22.1.4",
     "prettier": "^1.10.2",
     "react-test-renderer": "16.2.0",

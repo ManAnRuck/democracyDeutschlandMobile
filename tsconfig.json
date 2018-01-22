@@ -5,5 +5,6 @@
     "moduleResolution": "node",
     "sourceMap": true
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "filesGlob": ["src/**/*.ts", "src/**/*.tsx"]
 }

@@ -3,20 +3,20 @@ module.exports = ({ platform }, { module, resolve }) => ({
   module: {
     ...module,
     rules: [
+      ...module.rules,
       {
         test: /\.tsx?$/,
         exclude: "/node_modules/",
         use: [
           {
-            loader: "babel-loader"
+            loader: "babel-loader",
           },
           {
-            loader: "ts-loader"
-          }
-        ]
+            loader: "ts-loader",
+          },
+        ],
       },
-      ...module.rules
-    ]
+    ],
   },
   resolve: {
     ...resolve,
@@ -27,7 +27,7 @@ module.exports = ({ platform }, { module, resolve }) => ({
       ".native.ts",
       `.${platform}.tsx`,
       ".native.tsx",
-      ...resolve.extensions
-    ]
-  }
+      ...resolve.extensions,
+    ],
+  },
 });
