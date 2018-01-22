@@ -6,7 +6,8 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "haul": "haul",
-    "lint": "tslint --project tsconfig.json --format codeFrame"
+    "lint": "tslint --project tsconfig.json --format codeFrame",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json"
   },
   "dependencies": {
     "react": "16.2.0",
@@ -22,6 +23,7 @@
     "react-test-renderer": "16.2.0",
     "ts-loader": "^3.2.0",
     "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.6.0",
     "tslint-react": "^3.4.0",
     "typescript": "^2.6.2"
   },
